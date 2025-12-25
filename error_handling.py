@@ -8,10 +8,7 @@ def create_file(file_path):
 def read_file(file_path):
     file = None
     try:
-        file = open(file_path, 'r')
-       
-        result = 10 / 0
-        
+        file = open(file_path, 'r') 
         content = file.read()
         print(content)
     except FileNotFoundError:
