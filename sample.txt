@@ -1,3 +1,6 @@
 This is a sample text file.
-It contains multiple lines of text.
-This is useful for testing file reading.
+Overview
+This script demonstrates basic file handling. It shows how to:
+Create file and write content to it.
+Read the content of the file.
+Ensure that file is properly closed using a finally block.
